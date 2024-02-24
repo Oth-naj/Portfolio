@@ -1,0 +1,91 @@
+.skills {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+}
+
+.left-skill {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.left-skill > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.left-skill > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.left-skill > :nth-child(3) {
+    color: var(--gray);
+    width: 25rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards>* {
+    position: absolute;
+}
+
+
+
+.s-blur2 {
+    background: #c1f5ff;
+    width: 21rem;
+    height: 11rem;
+    border-radius: 50%;
+    z-index: -9;
+    filter: blur(72px);
+    position: absolute;
+    left: 14rem;
+    top: 8rem;
+}
+.s-blur1 {
+    background: rgb(238, 210, 255) ;
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    left: -18rem;
+    top: 13rem;
+    filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cards>* {
+        position: static;
+    }
+}
