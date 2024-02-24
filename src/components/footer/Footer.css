@@ -35,5 +35,6 @@
         flex-direction: column;
         height: 15rem;
         gap: 1rem;
+        margin-top: 2rem;
     }
 }

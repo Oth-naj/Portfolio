@@ -40,6 +40,9 @@
   .App{
     padding: 0.5rem 1rem;
   }
+  .button {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 700px) {
