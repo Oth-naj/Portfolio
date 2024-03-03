@@ -71,6 +71,9 @@ textarea {
         padding: 0;
         gap: 2rem;
     }
+    .button {
+        padding: 10px;
+    }
     
     
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import Place1 from '../../img/place1.png'
+import Place1 from '../../img/Portfolio-pic.png'
 import Place2 from '../../img/place2.png'
 import Place3 from '../../img/place3.png'
 import Place4 from '../../img/place4.png'
